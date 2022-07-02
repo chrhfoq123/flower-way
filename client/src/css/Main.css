@@ -5,21 +5,47 @@ body {background-color: #eeeeee;}
 
 
 /* 회원수정 css*/
-.userupdate {padding: 3em}
-.button {
-    position:absolute;
-    top:500px;
-    right:180px;
+.info {
+    padding-top: 3em;
+    /*padding-left: 5em;*/
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 100%;
 }
 
-.name{
-    width:250px;
-    height:20px;
+.inputbox{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.birth{
+.button{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.modifybtn {
+    background-color: #1abc9c;
+    color:#eeeeee;
+    border-radius: 50px;
+    width:150px;
+    height:50px;
+    font-weight: bold;
+    
+}
+
+.nameinput{
+    border-radius: 10px;
     width:250px;
-    height:20px;
+    height:25px;
+}
+
+.birthinput{
+    border-radius: 10px;
+    width:250px;
+    height:25px;
 }
 
 

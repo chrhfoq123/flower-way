@@ -26,7 +26,7 @@ class App extends Component
         {/* Content */}
         <div className='content'>
 
-          <UserUpdate></UserUpdate>       
+          <UserUpdate></UserUpdate>
 
           {/*<Register></Register>*/}
         </div>

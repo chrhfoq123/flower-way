@@ -4,24 +4,34 @@ class UserUpdate extends Component{
     render()
     {
         return(
-            <div className="userupdate">
-                ※이름
-                <div>
-                    <input type="text" className="name">
-                    </input>
+            <div className="info">
+                <div className="inputbox">
+                    <span className="title">
+                        <label>※이름</label>
+                    </span>
+                    <div className="name">
+                        <span className="inputbox">
+                            <input type="text" className="nameinput"/>
+                        </span>
+                    </div>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div>
+                        <span className="title">
+                            <label>※생년월일</label>
+                        </span>
+                        <div className="birth">
+                            <span className="inputbox">
+                                <input type="text" className="birthinput"/>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <br/>
-                <br/>
-                <div>
-                    ※생년월일
+                
+                <div className="button">
+                    <button className="modifybtn">수정하기</button>
                 </div>
-                <div>
-                    <input type="text" className="birth">
-                        
-                    </input>
-                </div>
-
-                <button className="button">수정하기</button>
             </div>
         );
     }
