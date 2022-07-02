@@ -1,5 +1,8 @@
+/* header */
 body {background-color: #eeeeee;}
-.header {background-color: #1abc9c; padding: 1em}
+.header {background-color: #1abc9c; padding: 1em; display: flex; align-items: center;}
+.header .title {font-size: 24px; color: #ffffff; font-weight: bold; padding-left: 1em;}
+
 
 /* 회원수정 css*/
 .userupdate {padding: 3em}
@@ -18,3 +21,18 @@ body {background-color: #eeeeee;}
     width:250px;
     height:20px;
 }
+
+
+/* 회원가입 CSS */
+.content .register {width: 80%; margin: 0 auto; display: flex; flex-direction: column; padding-top: 1.4em;}
+.content .register .input-box {display: flex; flex-direction: column; font-weight: bold; font-size: 22px; margin-bottom: 1.8em;}
+.content .register .write-box input {font-size: 28px; width: 93%; padding: 0.3em; padding-left: 0.6em; border: 2px solid#afafaf; border-radius: 6px;}
+.content .register .title {margin-bottom: 0.7em;}
+.content .register textarea {width: 98%; border: 2px solid#afafaf; border-radius: 6px; height: auto;}
+.content .register .agree {margin-top: 0.1em;}
+.content .register .agree .agree-text {font-size: 18px; margin-left: 0.5em;}
+.content .register .btn-box {width: 100%; text-align: center; margin-top: 2em;}
+.content .register .btn-box .btn {background-color: #1abc9c; font-size: 24px; border-radius: 50px; font-weight: bold; color: #ffffff; height: 1em; padding: 0.7em 3.5em;}
+
+
+/* 회원가입 CSS */
