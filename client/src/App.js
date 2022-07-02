@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import './css/App.css';
 import './css/Main.css';
 import menu_icon from './sorce/menu_icon.svg';
+import UserUpdate from './components/UserUpdate';
 
 class App extends Component
 {
@@ -17,9 +18,7 @@ class App extends Component
         {/* Header */}
         {/* Content */}
         <div className='content'>
-          <div className=''>
-            이제 각 화면에 맞는 구성
-          </div>          
+          <UserUpdate></UserUpdate>       
         </div>
         {/* Content */}
       </div>

@@ -1,2 +1,20 @@
 body {background-color: #eeeeee;}
 .header {background-color: #1abc9c; padding: 1em}
+
+/* 회원수정 css*/
+.userupdate {padding: 3em}
+.button {
+    position:absolute;
+    top:500px;
+    right:180px;
+}
+
+.name{
+    width:250px;
+    height:20px;
+}
+
+.birth{
+    width:250px;
+    height:20px;
+}
